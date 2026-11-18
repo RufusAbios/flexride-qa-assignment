@@ -1,0 +1,15 @@
+{
+  "name": "flexride-qa-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API tests for the Restful-Booker demo API (FlexRide QA assignment, Part C)",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
